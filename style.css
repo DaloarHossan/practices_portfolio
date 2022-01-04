@@ -1,0 +1,41 @@
+section{
+    display: flex;
+    padding-bottom: 150px;
+    height: 700px;
+}
+h1{
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+h1 span{
+    color: orange;
+    
+}
+h3{
+    font-weight: 700;
+}
+.width{
+    width: 50%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+
+}
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.ancore{
+    background-image: linear-gradient(orange, tomato);
+    text-decoration: none;
+    color: white;
+    padding:10px 40px;
+    border-radius: 5%;
+
+}
+a{
+    margin-top: 10px;
+}
+img{
+    padding-top: 10px;
+}
