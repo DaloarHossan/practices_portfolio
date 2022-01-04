@@ -1,6 +1,6 @@
-section{
+.second_section{
     display: flex;
-    padding-bottom: 150px;
+    
     height: 700px;
 }
 h1{
@@ -24,6 +24,8 @@ h3{
 body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
+  
+    background-repeat: none;
 }
 .ancore{
     background-image: linear-gradient(orange, tomato);
@@ -33,9 +35,39 @@ body{
     border-radius: 5%;
 
 }
-a{
-    margin-top: 10px;
-}
+
+
 img{
     padding-top: 10px;
+}
+.first_option{
+    
+    padding-top: 35px;
+
+   
+}
+
+h2{
+    padding: 20px;
+    margin-left: 80px;
+}
+.top_button{
+    
+    text-decoration: none;
+    font-weight: 700;
+    color: black;
+    padding:10px 40px;
+    border-radius: 5%;
+    
+    
+}
+div{
+    width: 50%;
+}
+section{
+    display: flex;
+    background-image: url(light-sage-green-background.jpg);
+}
+a:hover{
+    background-color: orange;
 }
